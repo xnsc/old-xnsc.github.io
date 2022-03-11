@@ -2,6 +2,7 @@
 
 :root {
 	--brown: #6e4815;
+	--lightbrown: #a6793d;
 	--beige: #d2b48c;
 	--cream: #f3e9e0;
 	--white: #ffffff;
@@ -96,7 +97,7 @@ a:hover {
 }
 
 form {
-	width: 30%;
+	width: 50vw;
 	margin: auto;
 	background-color: var(--cream);
 	border: var(--brown);
@@ -105,9 +106,33 @@ form {
 	border-radius: 5px;
 }
 
-input {
+input,
+textarea {
 	display: flex;
 	width: 100%;
 	margin-top: 1%;
 	margin-bottom: 1%;
+}
+
+textarea {
+	height: 10vh;
+}
+
+.btn {
+	width: 100%;
+}
+
+.btn-primary {
+	background-color: var(--brown);
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: var(--lightbrown);
+}
+
+@media (min-width: 800px) {
+	form {
+		width: 40vw;
+	}
 }
