@@ -52,7 +52,7 @@ h6 {
   border-style: dashed;
   border-color: var(--brown);
 
-  width: 60%;
+  width: 50%;
 }
 
 .accordion-button:focus {
