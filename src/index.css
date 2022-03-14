@@ -43,7 +43,7 @@ h6 {
   padding: 2%;
 }
 
-.position {
+.accordion {
   margin: auto;
   margin-bottom: 2%;
 
@@ -124,6 +124,19 @@ textarea {
 
 .btn-primary:hover {
   background-color: var(--lightbrown);
+}
+
+.links {
+  text-align: center;
+  font-size: 2em;
+}
+
+a#link {
+  color: var(--darksage);
+}
+
+a#link:hover {
+  color: var(--darkgrey);
 }
 
 @media (min-width: 800px) {
